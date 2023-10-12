@@ -1,6 +1,8 @@
 package com.yacht.controller;
 
 
+import javax.validation.Valid;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -13,7 +15,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import com.yacht.data.BoatDataService;
 import com.yacht.model.BoatModel;
 
-import jakarta.validation.Valid;
 
 
 @Controller
